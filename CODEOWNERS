@@ -1,0 +1,14 @@
+# AI Architect Studio (AI-Architect-Studio) — Organization Default CODEOWNERS
+# Website: https://frankx.ai/ai-architect
+# Brand ID: ai-architect | Governance Mode: active
+# Steward Agent: steward-enterprise
+# Executive Seat: CTO (Enterprise Architecture) + COO (Estate Operations)
+# Universal IS: Business IS,Code IS,Starlight Orchestrator
+# Council Lead: starlight-architect,starlight-navigator,starlight-sentinel
+# Primary Harnesses: Claude Code, Codex, Antigravity
+#
+# Human approval gate (Maker != Checker invariant):
+* @frankxai
+/.github/ @frankxai
+/AGENTS.md @frankxai
+/SECURITY.md @frankxai

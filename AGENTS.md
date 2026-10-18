@@ -1,9 +1,20 @@
-# AI Architect Studio â€” Agent operating contract
+# AI Architect Studio — Agent Operating Contract
 
-Scope: All repositories under the **AI-Architect-Studio** GitHub Organization.
-Brand register: `ai-architect` (Clear, evidence-gated, vendor-neutral where stated, and explicit about cost, latency, governance, and failure modes.)
+Scope: All repositories under the **AI-Architect-Studio** GitHub Organization (https://frankx.ai/ai-architect).
+Brand register: `ai-architect`
 
-## Core guardrails
+## Responsible Agent Team & Governance
+
+| Role | Assigned Owner |
+| :--- | :--- |
+| **Human Codeowner** | `@frankxai` |
+| **Organization Steward** | `steward-enterprise` |
+| **Executive Seat** | CTO (Enterprise Architecture) + COO (Estate Operations) |
+| **Universal IS** | Business IS,Code IS,Starlight Orchestrator |
+| **Council Lead** | starlight-architect,starlight-navigator,starlight-sentinel |
+| **Primary Harnesses** | `Claude Code`, `Codex`, `Antigravity` |
+
+## Core Guardrails
 
 1. **Think before coding.** State assumptions and surface tradeoffs. Verify file contents and branch state before writing.
 2. **Surgical changes.** Touch only the files required for the active slice. Never overwrite or reset another agent's uncommitted worktree.
@@ -15,3 +26,17 @@ Brand register: `ai-architect` (Clear, evidence-gated, vendor-neutral where stat
    - Preserve repository visibility parity: never copy or mirror private repository contents into a public repository.
    - Money fails closed; no autonomous spend or paid API provisioning without explicit human approval.
    - In health and mind domains, model observations only; never diagnose or make clinical claims.
+
+## Federated Repository Roster (7 repositories)
+
+| Repository | Visibility | Primary Owner | Role |
+| :--- | :--- | :--- | :--- |
+| `ai-architect` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/ai-architect) |
+| `ai-coe` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/ai-coe) |
+| `agentic-architecture-field-guide` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/agentic-architecture-field-guide) |
+| `awesome-ai-coe` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/awesome-ai-coe) |
+| `awesome-agent-operating-systems` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/awesome-agent-operating-systems) |
+| `agentic-operating-system-standard` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/agentic-operating-system-standard) |
+| `agentic-ops` | `private` | `frankxai` | federated-mirror (SSOT: frankxai/agentic-ops) |
+
+Built on SIP

@@ -23,7 +23,7 @@ The reference intentionally holds release. A corrected answer on retry leaves th
 | Choose where a model call, approval step or long-running job belongs | [AI Architect lifecycle and catalog](https://github.com/frankxai/ai-architect) | A decision record and system diagram tied to the same components |
 | Adapt one synthetic example to a scoped engagement | [Client delivery pack](https://github.com/AI-Architect-Studio/agentic-architecture-field-guide/tree/main/packs/client-delivery) | An acceptance protocol, operator handoff and explicit support boundary |
 | Give a team ownership across multiple AI projects | [AI Center of Excellence](https://github.com/AI-Architect-Studio/ai-coe) | A named owner for quality, cost and exceptions |
-| Compare an operating contract or reference | [Operating standard](https://github.com/AI-Architect-Studio/agentic-operating-system-standard) · [CoE references](https://github.com/AI-Architect-Studio/awesome-ai-coe) · [Agent systems index](https://github.com/AI-Architect-Studio/awesome-agent-operating-systems) | A sourced alternative and the reason you selected or rejected it |
+| Compare an operating contract or reference | [Operating standard](https://github.com/frankxai/agentic-operating-system-standard) · [CoE references](https://github.com/AI-Architect-Studio/awesome-ai-coe) · [Agent systems index](https://github.com/AI-Architect-Studio/awesome-agent-operating-systems) | A sourced alternative and the reason you selected or rejected it |
 
 For a guided first attempt, visit [AI Architect Academy](https://github.com/AI-Architect-Academy). For a contribution, open the instructions in the repository that owns the artifact. Keep client information in your own workspace and use a fictional example in a public pull request.
 

@@ -1,56 +1,30 @@
 # AI Architect Studio
 
-Evidence-gated enterprise AI architecture, Center of Excellence playbooks, and agent operating standards.
+**Could another engineer defend your release decision tomorrow?**
 
-**Website:** [frankx.ai/ai-architect](https://frankx.ai/ai-architect) Â· **Ecosystem:** [Starlight Intelligence](https://github.com/Starlight-Intelligence) Â· [Starlight Systems](https://github.com/Starlight-Intelligence-Systems) Â· [Arcanea Labs](https://github.com/Arcanea-Labs) Â· [GenCreator](https://github.com/GenCreator-ai) Â· [FrankX](https://github.com/FrankX-AI)
+Bring one proposed AI workflow. Leave with an architecture decision, inspectable evidence and instructions the next operator can use. Start with the [offline client delivery kit](https://github.com/AI-Architect-Studio/agentic-architecture-field-guide/blob/main/START-HERE.md) or take the [four-question design review](https://www.frankx.ai/ai-architect).
 
----
+## First case · the answer that arrived on the second attempt
 
-## Overview
+A synthetic support workflow retrieves a correct answer on retry. The first attempt timed out. Your sponsor wants to put the workflow into service. What evidence should the receiving engineer see before deciding?
 
-AI Architect Studio publishes vendor-neutral standards, reference architectures, and Center of Excellence (CoE) playbooks for engineering teams operating production AI and multi-agent systems.
+Open the [guided delivery lab](https://github.com/AI-Architect-Studio/agentic-architecture-field-guide/blob/main/docs/labs/client-delivery-lab.md). Its Node.js reference runs locally without a model key. Use the current quickstart commands in the kit. The browser workbench also runs offline after download.
 
-## System topology
+| Inspect | Decide | Give the next operator |
+| --- | --- | --- |
+| Find both attempts in the generated report. Check what remains unknown about cost. | Write down the evidence for proceeding, holding or changing the trial. Name the condition that would reverse your decision. | Export the dossier as JSON and Markdown. Ask a colleague to reopen it and locate the original failure without the conversation. |
 
-```mermaid
-flowchart LR
-  STD["agentic-operating-system-standard<br/>Open AOS specification"] --> FG["agentic-architecture-field-guide<br/>Reference patterns & topologies"]
-  STD --> AA["ai-architect<br/>Evidence-gated lifecycle"]
-  AA --> COE["ai-coe<br/>6-pillar AI CoE reference"]
-  COE --> ACOE["awesome-ai-coe<br/>Accountable CoE catalog"]
-  FG --> AAOS["awesome-agent-operating-systems<br/>Agent OS index"]
-```
+The reference intentionally holds release. A corrected answer on retry leaves the first failure and its cost in the record. A useful handoff preserves both.
 
-## Flagship repositories
+## Bring your own decision
 
-| Repository | Purpose | Link |
-| :--- | :--- | :--- |
-| [**ai-architect**](https://github.com/AI-Architect-Studio/ai-architect) | Evidence-gated architecture lifecycle, decision records, and system design templates. | [Website](https://frankx.ai/ai-architect) |
-| [**ai-coe**](https://github.com/AI-Architect-Studio/ai-coe) | Reference AI Center of Excellence across Strategy, Governance, Talent, Technology, Data, and Ethics. | [Website](https://frankx.ai/ai-architect) |
-| [**agentic-architecture-field-guide**](https://github.com/AI-Architect-Studio/agentic-architecture-field-guide) | Vendor-neutral field guide for multi-agent topologies, memory routing, and evaluation gates. | [Website](https://frankx.ai/ai-architect) |
-| [**agentic-operating-system-standard**](https://github.com/AI-Architect-Studio/agentic-operating-system-standard) | Open specification for agentic operating systems: lane locks, Maker-Checker gates, and state handovers. | [Website](https://frankx.ai/ai-architect) |
-| [**awesome-ai-coe**](https://github.com/AI-Architect-Studio/awesome-ai-coe) | Curated catalog of frameworks, governance models, and benchmarks for enterprise AI Centers of Excellence. | [Website](https://frankx.ai/ai-architect) |
-| [**awesome-agent-operating-systems**](https://github.com/AI-Architect-Studio/awesome-agent-operating-systems) | Structured index of agent operating systems, coding harnesses, and orchestration runtimes. | [Website](https://frankx.ai/ai-architect) |
+| You need to… | Open | Reviewable result |
+| --- | --- | --- |
+| Choose where a model call, approval step or long-running job belongs | [AI Architect lifecycle and catalog](https://github.com/frankxai/ai-architect) | A decision record and system diagram tied to the same components |
+| Adapt one synthetic example to a scoped engagement | [Client delivery pack](https://github.com/AI-Architect-Studio/agentic-architecture-field-guide/tree/main/packs/client-delivery) | An acceptance protocol, operator handoff and explicit support boundary |
+| Give a team ownership across multiple AI projects | [AI Center of Excellence](https://github.com/AI-Architect-Studio/ai-coe) | A named owner for quality, cost and exceptions |
+| Compare an operating contract or reference | [Operating standard](https://github.com/AI-Architect-Studio/agentic-operating-system-standard) · [CoE references](https://github.com/AI-Architect-Studio/awesome-ai-coe) · [Agent systems index](https://github.com/AI-Architect-Studio/awesome-agent-operating-systems) | A sourced alternative and the reason you selected or rejected it |
 
-## Quickstart
+For a guided first attempt, visit [AI Architect Academy](https://github.com/AI-Architect-Academy). For a contribution, open the instructions in the repository that owns the artifact. Keep client information in your own workspace and use a fictional example in a public pull request.
 
-```bash
-# Clone the AI Center of Excellence reference kit
-git clone https://github.com/AI-Architect-Studio/ai-coe.git
-
-# Explore the Agentic Architecture Field Guide
-git clone https://github.com/AI-Architect-Studio/agentic-architecture-field-guide.git
-```
-
-## Engineering standards
-
-Every repository in **AI Architect Studio** follows the Starlight estate engineering contract:
-
-1. **Draft-first pull requests**: Open pull requests in draft mode (`gh pr create --draft`). CI workflows run only when a pull request is marked ready for review or lands on `main`.
-2. **Independent verification**: Maker harness and Checker harness must differ (`Maker-Harness` != `Checker-Harness`).
-3. **Zero committed secrets**: Credentials live in local environment files or Infisical. Pre-commit and CI gates reject secret patterns.
-4. **Editorial clarity**: Public documentation uses sentence case headings, concrete verbs, and verified metrics.
-
----
-
-<sub>Maintained by <a href="https://github.com/frankxai">Frank Riemer (frankxai)</a> Â· Built on the <a href="https://github.com/Starlight-Intelligence-Systems/Starlight-Intelligence-System">Starlight Intelligence Protocol (SIP)</a></sub>
+[Organization contribution guide](https://github.com/AI-Architect-Studio/.github/blob/main/CONTRIBUTING.md) · [Frank Riemer](https://github.com/frankxai)

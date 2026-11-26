@@ -32,11 +32,13 @@ Brand register: `ai-architect`
 | Repository | Visibility | Primary Owner | Role |
 | :--- | :--- | :--- | :--- |
 | `ai-architect` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/ai-architect) |
-| `ai-coe` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/ai-coe) |
-| `agentic-architecture-field-guide` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/agentic-architecture-field-guide) |
-| `awesome-ai-coe` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/awesome-ai-coe) |
-| `awesome-agent-operating-systems` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/awesome-agent-operating-systems) |
+| `ai-coe` | `public` | `frankxai` | canonical repository (former frankxai/ai-coe URL redirects here) |
+| `agentic-architecture-field-guide` | `public` | `frankxai` | canonical repository (former frankxai/agentic-architecture-field-guide URL redirects here) |
+| `awesome-ai-coe` | `public` | `frankxai` | canonical repository (former frankxai/awesome-ai-coe URL redirects here) |
+| `awesome-agent-operating-systems` | `public` | `frankxai` | canonical repository (former frankxai/awesome-agent-operating-systems URL redirects here) |
 | `agentic-operating-system-standard` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/agentic-operating-system-standard) |
 | `agentic-ops` | `private` | `frankxai` | federated-mirror (SSOT: frankxai/agentic-ops) |
+
+Before proposing a change, resolve the GitHub repository ID. A transferred URL can name the same repository; a mirror has a different ID. Edit the canonical repository and keep retirement archives read-only.
 
 Built on SIP
